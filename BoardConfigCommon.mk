@@ -131,6 +131,7 @@ OVERRIDE_RS_DRIVER := libRSDriverArm.so
 BACKLIGHT_PATH := "/sys/class/backlight/panel/brightness"
 
 # HIDL
+DEVICE_MANIFEST_FILE := device/samsung/universal9810-common/manifest.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(COMMON_PATH)/framework_manifest.xml
 
 # Properties
